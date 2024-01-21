@@ -19,7 +19,7 @@
             font-family: 'Lato', sans-serif;
         }
         .test{
-            color: rgba(18, 18, 18, 0.40);
+            color: #1212121a;
             background-image:linear-gradient(180deg, #121212 -14.42%, rgba(18, 18, 18, 0.00) 100%) url(./images/banner1.png);
         }
     </style>
@@ -71,10 +71,10 @@
         </div>
         <!-- nav end here  -->
         <!-- banner start here  -->
-        <div class="container px-4 mx-auto lg:w-9/12">
+        <div class="container px-4 md:px-0 mx-auto lg:w-9/12">
             <div class="carousel w-full">
                 <div id="slide1"
-                    class="carousel-item relative w-full h-[30vh] sm:h-[45vh] md:h-[60vh] bg-cover bg-center bg-[linear-gradient(180deg,#121212,rgba(18,18,18,0.00)),url(./images/banner1.png)] rounded-md flex justify-center text-white text-center items-center">
+                    class="carousel-item relative w-full h-[30vh] sm:h-[45vh] md:h-[70vh] bg-cover bg-center bg-[linear-gradient(180deg,#121212,rgba(18,18,18,0.00)),url(./images/banner1.png)] rounded-md flex justify-center text-white text-center items-center">
             
                     <div class="w-2/3 mx-auto space-y-1 lg:space-y-6">
                         <h3 class="text-2xl md:text-5xl font-extrabold">Exotic tastes at your doorstep</h3>
@@ -91,7 +91,7 @@
                 </div>
                 <div id="slide2" class="carousel-item relative w-full">
                     <div
-                        class="h-[30vh] sm:h-[45vh] md:h-[60vh] bg-cover bg-center w-full bg-[linear-gradient(180deg,#121212,rgba(18,18,18,0.00)),url(./images/banner2.png)] rounded-md">
+                        class="h-[30vh] sm:h-[45vh] md:h-[70vh] bg-cover bg-center w-full bg-[linear-gradient(180deg,#121212,rgba(18,18,18,0.00)),url(./images/banner2.png)] rounded-md">
                         <div class="text-center flex h-full justify-center text-white items-center ">
                             <div class="w-2/3 mx-auto space-y-1 lg:space-y-6">
                                 <h3 class="text-2xl md:text-5xl font-extrabold">Exotic tastes at your doorstep</h3>
@@ -110,7 +110,7 @@
                 </div>
                 <div id="slide3" class="carousel-item relative w-full">
                     <div
-                        class="h-[30vh] sm:h-[45vh] md:h-[60vh] bg-cover bg-center w-full bg-[linear-gradient(180deg,#121212,rgba(18,18,18,0.00)),url(./images/banner3.png)] rounded-md">
+                        class="h-[30vh] sm:h-[45vh] md:h-[70vh] bg-cover bg-center w-full bg-[linear-gradient(180deg,#121212,rgba(18,18,18,0.00)),url(./images/banner3.png)] rounded-md">
                         <div class="text-center flex h-full justify-center text-white items-center ">
                             <div class="w-2/3 mx-auto space-y-1 lg:space-y-6">
                                 <h3 class="text-2xl md:text-5xl font-extrabold">Exotic tastes at your doorstep</h3>
@@ -129,7 +129,7 @@
                 </div>
                 <div id="slide4" class="carousel-item relative w-full">
                     <div
-                        class="h-[30vh] sm:h-[45vh] md:h-[60vh] bg-cover bg-center w-full bg-[linear-gradient(180deg,#121212,rgba(18,18,18,0.00)),url(./images/banner4.png)] rounded-md">
+                        class="h-[30vh] sm:h-[45vh] md:h-[70vh] bg-cover bg-center w-full bg-[linear-gradient(180deg,#121212,rgba(18,18,18,0.00)),url(./images/banner4.png)] rounded-md">
                         <div class="text-center flex h-full justify-center text-white items-center ">
                             <div class="w-2/3 mx-auto space-y-1 lg:space-y-6">
                                 <h3 class="text-2xl md:text-5xl font-extrabold">Exotic tastes at your doorstep</h3>
@@ -147,11 +147,164 @@
                     </div>
                 </div>
             </div>
+            <div class="hidden md:block">
+                <div class="w-10/12 relative bottom-16 mx-auto grid grid-cols-5 shadow-lg rounded-lg text-[#12121299] bg-white">
+                    <div class="flex flex-col py-9 px-12 items-center justify-end">
+                        <img src="./images/fruit1.png" alt="">
+                        <p class="font-semibold">Strawberry</p>
+                    </div>
+                    <div class="flex flex-col py-9 px-12 items-center justify-end">
+                        <img src="./images/fruit2.png" alt="">
+                        <p class="font-semibold">Orange</p>
+                    </div>
+                    <div class="flex flex-col py-9 px-12 items-center justify-end">
+                        <img src="./images/fruit3.png" alt="">
+                        <p class="font-semibold">Mango</p>
+                    </div>
+                    <div class="flex flex-col py-9 px-12 items-center justify-end">
+                        <img src="./images/fruit4.png" alt="">
+                        <p class="font-semibold">Strawberry</p>
+                    </div>
+                    <div class="flex flex-col py-9 px-12 items-center justify-end">
+                        <img src="./images/fruit5.png" alt="">
+                        <p class="font-semibold">Mango</p>
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- banner end here  -->
     </header>
     <main>
-
+        <!-- Deal day start here  -->
+        <section>
+            <div class="container px-4 md:px-0 mx-auto lg:w-9/12 mb-24 ">
+                <div class="flex flex-col md:flex-row items-center md:items-start mt-16 justify-between mb-9 gap-6">
+                    <div class="text-center md:text-left ">
+                        <h2 class="text-4xl font-extrabold mb-4">Deal of the day</h2>
+                        <p class="text-[#12121299] text-sm mt-4w-full md:w-2/3 ">Contrary to popular belief, is not simply random text. It has
+                            roots in a piece of classical Latin literature from 45 BC,
+                            making it over 2000 years old.</p>
+                    </div>
+                    <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:15;"></span>
+                            </span>
+                            days
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:10;"></span>
+                            </span>
+                            hours
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:24;"></span>
+                            </span>
+                            min
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:50;"></span>
+                            </span>
+                            sec
+                        </div>
+                    </div>
+                </div>
+                <!-- deals container  -->
+                <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
+                    <!-- deal card 1 -->
+                    <div class="p-9 flex flex-col justify-center border rounded-lg border-[#1212121a] items-center">
+                        <img src="./images/fruit6.png" alt="">
+                        <h3 class="text-lg font-bold mt-9">12.90$ - 18.85$</h3>
+                        <div class="divider p-0"></div>
+                        <p class="text-sm mb-4">Apples</p>
+                        <div class="rating w-9/12 rating-lg rating-half">
+                            <input type="radio" name="rating-10" class="rating-hidden" />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-1" checked />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-2" />
+                        </div>
+                        <a href="" class="link text-[#F85559] mt-6 link-hover">Details</a>
+                    </div>
+                    <!-- deal card 2 -->
+                    <div class="p-9 flex flex-col justify-center border rounded-lg border-[#1212121a] items-center">
+                        <img src="./images/fruit7.png" alt="">
+                        <h3 class="text-lg font-bold mt-9">12.90$ - 18.85$</h3>
+                        <div class="divider p-0"></div>
+                        <p class="text-sm mb-4">Orange</p>
+                        <div class="rating w-9/12 rating-lg rating-half">
+                            <input type="radio" name="rating-10" class="rating-hidden" />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-1" checked />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-2" />
+                        </div>
+                        <a href="" class="link text-[#F85559] mt-6 link-hover">Details</a>
+                    </div>
+                    <!-- deal card 3 -->
+                    <div class="p-9 flex flex-col justify-center border rounded-lg border-[#1212121a] items-center">
+                        <img src="./images/fruit8.png" alt="">
+                        <h3 class="text-lg font-bold mt-9">12.90$ - 18.85$</h3>
+                        <div class="divider p-0"></div>
+                        <p class="text-sm mb-4">Red Dragon</p>
+                        <div class="rating w-9/12 rating-lg rating-half">
+                            <input type="radio" name="rating-10" class="rating-hidden" />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-1" checked />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-2" />
+                        </div>
+                        <a href="" class="link text-[#F85559] mt-6 link-hover">Details</a>
+                    </div>
+                    <!-- deal card 4 -->
+                    <div class="p-9 flex flex-col justify-center border rounded-lg border-[#1212121a] items-center">
+                        <img src="./images/fruit9.png" alt="">
+                        <h3 class="text-lg font-bold mt-9">12.90$ - 18.85$</h3>
+                        <div class="divider p-0"></div>
+                        <p class="text-sm mb-4">Banana</p>
+                        <div class="rating w-9/12 rating-lg rating-half">
+                            <input type="radio" name="rating-10" class="rating-hidden" />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-1" checked />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-[#fbc0a8] mask mask-star-2 mask-half-2" />
+                        </div>
+                        <a href="" class="link text-[#F85559] mt-6 link-hover">Details</a>
+                    </div>
+                </div>
+                <div class="grid place-items-center mt-12">
+                    <button class="btn text-white bg-[#F85559] border-none">Shop All</button>
+                </div>
+            </div>
+        </section>
+        <!-- Deal day end here  -->
     </main>
 </body>
 </html>
